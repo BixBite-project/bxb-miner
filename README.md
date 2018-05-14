@@ -1,7 +1,10 @@
 # bxb-miner
 ![](https://github.com/BixBite-project/bxb-miner/blob/master/img.png?raw=true)
 
-Miner is early alpha version. Support only AMD GPU Graphics with fan control. For test only.
+Miner is early alpha version.
+
+Support only AMD GPU Graphics with fan control. For test only.
+
 Supported algo/coins: Cryptonight, Cryptonight v7, Cryptonight-Heavy (Bixbite, Sumocoin, Haven), IPBC, Alloy, Cryptonight Lite, Cryptonight Lite v7
 
 Without Dev fee !
