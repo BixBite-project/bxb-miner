@@ -29,5 +29,6 @@ Config example:
   "server-ip":"0.0.0.0",  // server IP address for server monitoring
   "rig-name":"PROG"      // rig name on monitoring server
 }
+  
 Use the "-c" switch to run different configurations (ex: bxb-miner.exe -c config_heavy.json)
 
