@@ -1,0 +1,97 @@
+﻿{
+  "pools": [ 
+	{
+	   "name":"Iridium",
+      "url": "",
+	  "port":20500,
+	  "stale-time":0,
+      "user": ".5000",
+      "pass": "",
+	  "algo":"lite_v7"
+	},
+	{
+	   "name":"",
+      "url": "",
+	  "port":20500,
+	  "stale-time":0,
+      "user": ".5000",
+      "pass": "",
+	  "algo":"lite"
+	},
+	{
+	   "name":"Alloy",
+      "url": "",
+	  "port":20500,
+	  "stale-time":0,
+      "user": ".5000",
+      "pass": "",
+	  "algo":"alloy"
+	},
+	{
+	   "name":"Alloy",
+      "url": "",
+	  "port":20500,
+	  "stale-time":0,
+      "user": ".5000",
+      "pass": "",
+	  "algo":"alloy"
+	},{
+	  "name":"Monero v7",
+      "url": "",
+      "port":3333,
+	  "stale-time":60000,
+      "user": "",
+      "pass": ""
+	},
+	{
+	  "name":"IPBC",
+      "url": "",
+      "port":5555,
+	  "stale-time":0,
+      "user": "",
+      "pass": "",
+	   "algo":"IPBC"
+	},
+	{
+	  "name":"sumo",
+      "url": "",
+      "port":20100,
+	  "stale-time":0,
+      "user": "",
+      "pass": "",
+	   "algo":"heavy"
+	},
+	{
+	  "name":"Stellite",
+      "url": "",
+      "port":4444,
+	  "stale-time":0,
+      "user": "",
+      "pass": "",
+	  "algo":"v7"
+	},
+	{
+	  "name":"Masari",
+      "url": "",
+      "port":5555,
+	  "stale-time":30000,
+      "user": "",
+      "pass": ""
+	},
+	{
+      "url": "",
+	  "port":20100,
+      "user": "",
+      "pass": "",
+	  "algo":"v7"
+	}
+  ],
+  "intensity": "400",
+  "gpu":"0",
+  "gpu-threads": "2",
+  "auto-fan":true,
+  "target-temp":60,
+  "server":true,
+  "server-ip":"127.0.0.1",  
+  "rig-name":"PROG"
+}
