@@ -1,6 +1,14 @@
 ﻿{
   "pools": [ 
-	{
+	 {
+	   "name":"Loki",
+      "url": "",
+	  "port":5577,
+	  "stale-time":0,
+      "user": "",
+      "pass": "PROG",
+	  "algo":"heavy"
+	},{
 	   "name":"Iridium",
       "url": "",
 	  "port":20500,
@@ -86,11 +94,11 @@
 	  "algo":"v7"
 	}
   ],
-  "intensity": "400",
+  "intensity": "180",
   "gpu":"0",
   "gpu-threads": "2",
   "auto-fan":true,
-  "target-temp":60,
+  "target-temp":65,
   "server":true,
   "server-ip":"127.0.0.1",  
   "rig-name":"PROG"
