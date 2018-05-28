@@ -1,105 +1,66 @@
 ﻿{
-  "pools": [ 
-	 {
-	   "name":"Loki",
-      "url": "",
-	  "port":5577,
-	  "stale-time":0,
-      "user": "",
-      "pass": "PROG",
-	  "algo":"heavy"
-	},{
-	   "name":"Iridium",
-      "url": "",
-	  "port":20500,
-	  "stale-time":0,
-      "user": ".5000",
-      "pass": "",
-	  "algo":"lite_v7"
-	},
-	{
-	   "name":"",
-      "url": "",
-	  "port":20500,
-	  "stale-time":0,
-      "user": ".5000",
-      "pass": "",
-	  "algo":"lite"
-	},
-	{
-	   "name":"Alloy",
-      "url": "",
-	  "port":20500,
-	  "stale-time":0,
-      "user": ".5000",
-      "pass": "",
-	  "algo":"alloy"
-	},
-	{
-	   "name":"Alloy",
-      "url": "",
-	  "port":20500,
-	  "stale-time":0,
-      "user": ".5000",
-      "pass": "",
-	  "algo":"alloy"
-	},{
-	  "name":"Monero v7",
-      "url": "",
-      "port":3333,
-	  "stale-time":60000,
-      "user": "",
-      "pass": ""
-	},
-	{
-	  "name":"IPBC",
-      "url": "",
-      "port":5555,
-	  "stale-time":0,
-      "user": "",
-      "pass": "",
-	   "algo":"IPBC"
-	},
-	{
-	  "name":"sumo",
-      "url": "",
-      "port":20100,
-	  "stale-time":0,
-      "user": "",
-      "pass": "",
-	   "algo":"heavy"
-	},
-	{
-	  "name":"Stellite",
-      "url": "",
-      "port":4444,
-	  "stale-time":0,
-      "user": "",
-      "pass": "",
-	  "algo":"v7"
-	},
-	{
-	  "name":"Masari",
-      "url": "",
-      "port":5555,
-	  "stale-time":30000,
-      "user": "",
-      "pass": ""
-	},
-	{
-      "url": "",
-	  "port":20100,
-      "user": "",
-      "pass": "",
-	  "algo":"v7"
-	}
+  "pools": [
+    {
+      "name": "Bixbite",
+      "url": "pool.bixbite.pro",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "heavy"
+    },
+    {
+      "name": "Monero",
+      "url": "pool.monero.coin",
+      "port": 3333,
+      "stale-time": 60000,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "v7"
+    },    
+    {
+      "name": "Iridium",
+      "url": "pool.iridium.coin",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "lite_v7"
+    },
+    {
+      "name": "Aeon",
+      "url": "pool.aeon.coin",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "lite"
+    },
+    {
+      "name": "Alloy",
+      "url": "pool.alloy.coin",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "alloy"
+    },
+    {
+      "name": "Ipbc/Bittube",
+      "url": "pool.bittube.coin",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "ipbc"
+    }
   ],
-  "intensity": "180",
-  "gpu":"0",
+  "intensity": "432",
+  "gpu": "0,1,2,3,4,5",
   "gpu-threads": "2",
-  "auto-fan":true,
-  "target-temp":65,
-  "server":true,
-  "server-ip":"127.0.0.1",  
-  "rig-name":"PROG"
+  "auto-fan": true,
+  "target-temp": 60,
+  "server": true,
+  "server-ip": "0.0.0.0",
+  "rig-name": "MAIN_RIG"
 }
