@@ -1,7 +1,7 @@
 # BXB-Miner
 ![](https://github.com/BixBite-project/bxb-miner/blob/master/img.png?raw=true)
 
-Miner is early alpha version.
+Miner is early beta version.
 
 Support only AMD GPU Graphics with fan control. For test only.
 
