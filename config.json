@@ -62,5 +62,7 @@
   "target-temp": 60,
   "server": true,
   "server-ip": "0.0.0.0",
-  "rig-name": "MAIN_RIG"
+  "rig-name": "MAIN_RIG",
+  "use-cpu":true,
+  "cpu-threads": 2
 }
