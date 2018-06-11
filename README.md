@@ -30,7 +30,7 @@ Not a fork of any miner software!
       "target-temp":60,			// target temperature
       "server":true, 			// this option enabling server monitoring feature, other rigs may acts as clients
       "server-ip":"0.0.0.0",  		// server IP address for server monitoring
-      "rig-name":"PROG"      		// rig name on monitoring server
+      "rig-name":"PROG",      		// rig name on monitoring server
 	  "use-cpu":true, 			// Enable CPU mining
       "cpu-threads": 2 			// Manual settings for cpu threads (not recomended). Not set this otion for auto select thread count.
     }
