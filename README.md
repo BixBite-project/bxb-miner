@@ -30,7 +30,7 @@ Not a fork of any miner software!
       "target-temp":60,			// target temperature
       "server":true, 			// this option enabling server monitoring feature, other rigs may acts as clients
       "server-ip":"0.0.0.0",  		// server IP address for server monitoring
-      "rig-name":"PROG"      		// rig name on monitoring server
+      "rig-name":"PROG",      		// rig name on monitoring server
 	  "use-cpu":true, 			// Enable CPU mining
       "cpu-threads": 2 			// Manual settings for cpu threads (not recomended). Not set this otion for auto select thread count.
     }
@@ -45,8 +45,11 @@ Use the "-c" switch to run different configurations (ex: bxb-miner.exe -c config
 # Tested CPU`s:
 
 Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz // 3 threads // cryptonight v7 // 195 H/s
+
 Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz // 4 threads // cryptonight light v7 // 595 H/s
+
 Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz // 12 threads // cryptonight v7 // 495 H/s
+
 
 # Tested cards:
 					
