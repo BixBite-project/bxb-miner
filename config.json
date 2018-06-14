@@ -8,9 +8,17 @@
       "user": "WALLET",
       "pass": "x",
       "algo": "heavy"
+    },{
+      "name": "New Stellite",
+      "url": "",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "stellite"
     }, 
 	{
-      "name": "Haven",
+      "name": "New Haven",
       "url": "",
       "port": 3333,
       "stale-time": 0,
