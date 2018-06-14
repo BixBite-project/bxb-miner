@@ -8,6 +8,15 @@
       "user": "WALLET",
       "pass": "x",
       "algo": "heavy"
+    }, 
+	{
+      "name": "Haven",
+      "url": "",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "WALLET",
+      "pass": "x",
+      "algo": "haven"
     },
     {
       "name": "Monero",
@@ -58,6 +67,7 @@
   "intensity": "432",
   "gpu": "0,1,2,3,4,5",
   "gpu-threads": "2",
+  "worksize":"8",
   "auto-fan": true,
   "target-temp": 60,
   "server": true,
