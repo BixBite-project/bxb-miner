@@ -20,7 +20,7 @@ Not a fork of any miner software!
         "stale-time":0,			// stale share time interval allowing window (ms)
     	"user": "<WALLET>",		// wallet address
     	"pass": "", 			// password
-    	"algo":"heavy"			// supported algorithm: old, v7, stellite, heavy, haven, ipbc, alloy, lite, lite_v7, auto (for old/v7)
+    	"algo":"heavy"			// supported algorithm: old, v7, stellite, heavy, haven, ipbc(new BitTube variant), alloy, lite, lite_v7, auto (for old/v7)
       }
       ],
       "intensity": "896", 			// GPU intensity (one value for all GPUs, separated list for individual intensity per adapter ("896,432,896")
@@ -38,10 +38,27 @@ Not a fork of any miner software!
 
 Use the "-c" switch to run different configurations (ex: bxb-miner.exe -c config_heavy.json)
 
+# BXB-Miner client-server usage:
+
+![](https://github.com/BixBite-project/bxb-miner/blob/master/scheme.jpg?raw=true)
+
+If your have many rig`s in mine, you can use this function for simplefy monitoring and management
+Next commands avalible for use:
+-Change current pool in all rigs;
+-Pause/Start all rig`s in mine;
+-Reset statistics on  all rig`s connceted for server;
+-Reload pool list from file, without restart miner;
+-Update pool list in rigs (send list from server). Use macros $$$name$$$ in config for automaticaly replace to rig-name on recieved rig`s;
+
 # Recommended:
 
 - Use large pagefile, more 32gb
-- Set system variable GPU_FORCE_64BIT_PTR in 1
+- Set system variable:
+- GPU_FORCE_64BIT_PTR in 1
+- GPU_MAX_ALLOC_PERCENT 100
+- GPU_MAX_HEAP_SIZE 100
+- GPU_MAX_SINGLE_ALLOC_PERCENT 100
+- GPU_MAX_USE_SYNC_OBJECTS 1
 
 # Tested CPU`s:
 
