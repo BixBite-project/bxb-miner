@@ -73,6 +73,8 @@ Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz // 4 threads // cryptonight light v7 // 
 
 Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz // 12 threads // cryptonight v7 // 495 H/s
 
+Intel(R) Xeon(R) CPU E3-1245 @ 3.30GHz // 4 threads // cryptonight v7 // 260 H/s
+
 
 # Tested cards:
 					
