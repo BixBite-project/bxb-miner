@@ -42,13 +42,18 @@ Use the "-c" switch to run different configurations (ex: bxb-miner.exe -c config
 
 ![](https://github.com/BixBite-project/bxb-miner/blob/master/scheme.jpg?raw=true)
 
+
 If your have many rig`s in mine, you can use this function for simplefy monitoring and management
+
+
 Next commands avalible for use:
--Change current pool in all rigs;
--Pause/Start all rig`s in mine;
--Reset statistics on  all rig`s connceted for server;
--Reload pool list from file, without restart miner;
--Update pool list in rigs (send list from server). Use macros $$$name$$$ in config for automaticaly replace to rig-name on recieved rig`s;
+
+
+- Change current pool in all rigs;
+- Pause/Start all rig`s in mine;
+- Reset statistics on  all rig`s connceted for server;
+- Reload pool list from file, without restart miner;
+- Update pool list in rigs (send list from server). Use macros $$$name$$$ in config for automaticaly replace to rig-name on recieved rig`s;
 
 # Recommended:
 
