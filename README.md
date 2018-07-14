@@ -5,7 +5,7 @@ Miner is early beta version.
 
 Support only AMD GPU Graphics with fan control. For test only.
 
-Supported algo/coins: Cryptonight, Cryptonight v7, Cryptonight-Heavy (Bixbite, Sumocoin), New Stellite, New Haven, IPBC, Alloy, Cryptonight Lite, Cryptonight Lite v7
+Supported algo/coins: Cryptonight, Cryptonight v7, Cryptonight-Fast (Masari), Cryptonight-Heavy (Bixbite, Sumocoin), New Stellite, New Haven, IPBC, Alloy, Cryptonight Lite, Cryptonight Lite v7
 
 Without Dev fee !
 Not a fork of any miner software!
@@ -20,7 +20,7 @@ Not a fork of any miner software!
         "stale-time":0,			// stale share time interval allowing window (ms)
     	"user": "<WALLET>",		// wallet address
     	"pass": "", 			// password
-    	"algo":"heavy"			// supported algorithm: old, v7, stellite, heavy, haven, ipbc(new BitTube variant), alloy, lite, lite_v7, auto (for old/v7)
+    	"algo":"heavy"			// supported algorithm: old, v7, stellite, heavy, haven, ipbc(new BitTube variant), alloy, lite, lite_v7, masari, auto (for old/v7)
       }
       ],
       "intensity": "896", 			// GPU intensity (one value for all GPUs, separated list for individual intensity per adapter ("896,432,896")
