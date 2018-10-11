@@ -9,6 +9,14 @@
       "pass": "x",
       "algo": "heavy"
     },{
+      "name": "New Monero test",
+      "url": "killallasics.moneroworld.com",
+      "port": 3333,
+      "stale-time": 0,
+      "user": "9v4vTVwqZzfjCFyPi7b9Uv1hHntJxycC4XvRyEscqwtq8aycw5xGpTxFyasurgf2KRBfbdAJY4AVcemL1JCegXU4EZfMtaz",
+      "pass": "$$$name$$$",
+      "algo": "v8"
+	},{
       "name": "New Stellite",
       "url": "",
       "port": 3333,
@@ -72,7 +80,7 @@
       "algo": "ipbc"
     }
   ],
-  "intensity": "432",
+  "intensity": "0",
   "gpu": "0,1,2,3,4,5",
   "gpu-threads": "2",
   "worksize":"8",
@@ -82,5 +90,6 @@
   "server-ip": "0.0.0.0",
   "rig-name": "MAIN_RIG",
   "use-cpu":true,
-  "cpu-threads": 2
+  "cpu-threads": 2,
+  "log":true
 }
