@@ -1,95 +1,98 @@
-﻿{
-  "pools": [
-    {
-      "name": "Bixbite",
-      "url": "pool.bixbite.pro",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "heavy"
-    },{
-      "name": "New Monero test",
-      "url": "killallasics.moneroworld.com",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "9v4vTVwqZzfjCFyPi7b9Uv1hHntJxycC4XvRyEscqwtq8aycw5xGpTxFyasurgf2KRBfbdAJY4AVcemL1JCegXU4EZfMtaz",
-      "pass": "$$$name$$$",
-      "algo": "v8"
-	},{
-      "name": "New Stellite",
-      "url": "",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "stellite"
-    }, 
-	{
-      "name": "New Haven",
-      "url": "",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "haven"
-    },
-    {
-      "name": "Monero",
-      "url": "pool.monero.coin",
-      "port": 3333,
-      "stale-time": 60000,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "v7"
-    },    
-    {
-      "name": "Iridium",
-      "url": "pool.iridium.coin",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "lite_v7"
-    },
-    {
-      "name": "Aeon",
-      "url": "pool.aeon.coin",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "lite"
-    },
-    {
-      "name": "Alloy",
-      "url": "pool.alloy.coin",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "alloy"
-    },
-    {
-      "name": "Ipbc/Bittube",
-      "url": "pool.bittube.coin",
-      "port": 3333,
-      "stale-time": 0,
-      "user": "WALLET",
-      "pass": "x",
-      "algo": "ipbc"
-    }
-  ],
-  "intensity": "0",
-  "gpu": "0,1,2,3,4,5",
-  "gpu-threads": "2",
-  "worksize":"8",
-  "auto-fan": true,
-  "target-temp": 60,
-  "server": true,
-  "server-ip": "0.0.0.0",
-  "rig-name": "MAIN_RIG",
-  "use-cpu":true,
-  "cpu-threads": 2,
-  "log":true
+﻿{  
+   "pools":[  
+      {  
+         "name":"Bixbite",
+         "url":"pool.bixbite.pro",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"heavy"
+      }
+      {  
+         "name":"New Stellite",
+         "url":"",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"x",
+         "algo":"stellite"
+      },
+      {  
+         "name":"New Haven",
+         "url":"",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"haven"
+      },
+      {  
+         "name":"Monero",
+         "url":"pool.monero.coin",
+         "port":3333,
+         "stale-time":60000,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"v8"
+      },
+      {  
+         "name":"Iridium",
+         "url":"pool.iridium.coin",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"lite_v7"
+      },
+      {  
+         "name":"Aeon",
+         "url":"pool.aeon.coin",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"lite"
+      },
+      {  
+         "name":"Alloy",
+         "url":"pool.alloy.coin",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"alloy"
+      },
+      {  
+         "name":"Ipbc/Bittube",
+         "url":"pool.bittube.coin",
+         "port":3333,
+         "stale-time":0,
+         "user":"WALLET",
+         "pass":"$$$name$$$",
+         "algo":"ipbc"
+      }
+   ],
+   "ocl":{  
+      "intensity":"0",
+      "gpu":"0,1,2,3,4,5",
+      "threads":"2",
+      "worksize":"8",
+      "auto-fan":true,
+      "target-temp":60
+   },
+   "cuda":{  
+      "gpu":"0,1,2,3,4",
+      "blocks":"36,36,36,36,36",
+      "threads":"16,16,16,16,16",
+      "temp-monitor":true
+   },
+   "cpu":{  
+      "use-cpu":true,
+      "cpu-threads":2
+   },
+   "server":true,
+   "server-ip":"0.0.0.0",
+   "rig-name":"MAIN_RIG",
+   "log":true
 }
