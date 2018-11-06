@@ -77,15 +77,17 @@
       "intensity":"0",
       "gpu":"0,1,2,3,4,5",
       "threads":"2",
-      "worksize":"8",
+      "worksize":"8,4/4,8",
       "auto-fan":true,
-      "target-temp":60
+      "target-temp":60,
+	  "overheat-temp":85
    },
    "cuda":{  
       "gpu":"0,1,2,3,4",
       "blocks":"36,36,36,36,36",
       "threads":"16,16,16,16,16",
-      "temp-monitor":true
+      "temp-monitor":true,
+	  "overheat-temp":85
    },
    "cpu":{  
       "use-cpu":true,

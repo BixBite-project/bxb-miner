@@ -33,15 +33,17 @@ Without Dev fee !
 			"gpu": "0",			// GPU ID using to mine, for multiple set as "0,1,2,3,4"
 			"intensity": "896",		// GPU intensity (one value for all GPUs, separated list for individual intensity per adapter ("896,432,896")
 			"threads": "2",			// threads per GPU, can be set for multiple GPUs ("2,1,1,2,2")
-			"worksize": "8",		// Worksize per GPU, can be set for multiple GPUs ("8,8,8,7,8")
+			"worksize": "16/14,8,8",	// Worksize per GPU, can be set for multiple GPUs ("8,8,8,7,8"). Different worksize support for each thread (Use "/" to set worksize per thread ("8/6,16/14,8/6,8,8"))
 			"auto-fan": true,		// fan auto-control
-			"target-temp": 60		// target temperature
+			"target-temp": 60,		// target temperature
+			"overheat-temp": 85		// overheat control (allow to pause device when temperature exceeding thershold)
 		},
 		"cuda":{				// NVIDIA (CUDA) section
 			"gpu": "0",			// GPU ID using to mine, for multiple set as "0,1,2,3,4"
 			"blocks": "36",			// blocks per GPU, may be set ("24,36,36,24,36")
 			"threads": "16",		// threads per GPU, may be set ("8,8,16,32,8")
-			"temp-monitor": true		// temperature monitoring
+			"temp-monitor": true,		// temperature monitoring
+			"overheat-temp": 85		//  overheat control (allow to pause device when temperature exceeding thershold)
 		},
 		"cpu":{					// CPU section
 			"use-cpu": true,		// Enable CPU mining
@@ -82,10 +84,12 @@ Next commands avalible for use:
 
 # Tested CPU's:
 
-Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz // 3 threads // cryptonight v7 // 195 H/s
-Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz // 4 threads // cryptonight light v7 // 595 H/s
-Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz // 12 threads // cryptonight v7 // 495 H/s
-Intel(R) Xeon(R) CPU E3-1245 @ 3.30GHz // 4 threads // cryptonight v7 // 260 H/s
+| CPU | Threads | Algo | Hashrate |
+| ----- | ----- | ----- | ----- |
+| Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz | 3 threads | cryptonight v7 | 195 H/s |
+| Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz | 4 threads | cryptonight light v7 | 595 H/s |
+| Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz | 12 threads | cryptonight v7 | 495 H/s |
+| Intel(R) Xeon(R) CPU E3-1245 @ 3.30GHz | 4 threads | cryptonight v7 | 260 H/s |
 
 # Tested AMD cards:
 
